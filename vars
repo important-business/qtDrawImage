@@ -1,0 +1,9 @@
+#/bin/bash
+
+# change this to reflect your installation location
+POKY_ROOT=/opt/poky/1.6.1/
+
+source $POKY_ROOT/sysroots/armv7a-vfp-neon-poky-linux-gnueabi/usr/share/qtopia/environment-setup
+source $POKY_ROOT/environment-setup-armv7a-vfp-neon-poky-linux-gnueabi
+
+export QT4DIR=$POKY_ROOT/sysroots/armv7a-vfp-neon-poky-linux-gnueabi/usr/share/qtopia

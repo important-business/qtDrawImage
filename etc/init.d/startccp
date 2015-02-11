@@ -1,0 +1,14 @@
+#!/bin/sh
+
+echo "Starting CCP App"
+case "$1" in 
+	start)
+		# Start the application
+		/ccp/run.sh &
+		;;
+	stop)
+		;;
+	*)
+		;;
+	esac
+
